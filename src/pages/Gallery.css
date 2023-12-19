@@ -1,0 +1,29 @@
+.gallery-container{
+display:flex;
+gap: 10px;
+}
+
+.gallery-container img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    object-fit: cover;
+    
+}
+
+.gallery-container article{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .gallery-container{
+        display:flex;
+    flex-direction: column;
+
+        gap: 10px;
+        }
+}

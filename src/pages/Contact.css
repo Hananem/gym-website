@@ -1,0 +1,22 @@
+
+
+
+
+.contact-container{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    color:white;
+   
+}
+
+.contact-container a{
+    font-size: 2rem;
+}
+
+
+
+
+

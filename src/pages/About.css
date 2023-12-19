@@ -1,0 +1,33 @@
+.about-container{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.about-txt{
+    width: 600px;
+    color:white;
+}
+
+.about-txt h1{
+    font-size: 2rem;
+ margin-bottom: 1rem;
+}
+
+.about-txt p{
+    color: var(--Lightgray);
+
+    
+}
+.about-img{
+    width: 380px;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.about-txt p{
+    margin: 1rem 0;
+   }

@@ -1,0 +1,47 @@
+.trainer-container{
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(40%,1fr));
+    width:60%;
+    margin:auto;
+    height:400px;
+}
+
+
+
+.trainer-container img{
+    width: 100%;
+    height: 100%;
+  object-fit: cover;
+
+}
+
+.trainer-image{
+    height: 100%;
+}
+
+.single-trainer-info{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+padding: 3rem 0;
+color: white;
+}
+
+
+.single-trainer-info .desc{
+  margin:.7rem;
+ font-size:.8rem;
+ width:58%;
+}
+
+.single-trainer-info .btn{
+  margin:1rem;
+ 
+}
+
+@media screen and (max-width:768px) {
+  .trainer-container{
+      grid-template-columns:  1fr;
+  }
+}
